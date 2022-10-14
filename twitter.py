@@ -41,16 +41,7 @@ def main():
     json_response = connect_to_endpoint(search_url, query_params)
     #print(json.dumps(json_response, indent=4, sort_keys=True))
     results = pd.DataFrame(json_response['data'])
-    plt.bar(results['start'], results['tweet_count'], label="Blue Bar", color='b')
-
-    plt.plot()
-
-    plt.xlabel("bar number")
-    plt.ylabel("bar height")
-    plt.title("Bar Chart Example")
-    plt.legend()
-    plt.show()
-
+    
     st.bar_chart(results['tweet_count'])
 
 
