@@ -7,7 +7,7 @@ import streamlit as st
 # export 'BEARER_TOKEN'='<your_bearer_token>'
 # To set your enviornment variables in your terminal run the following line:
 
-bearer_token = os.environ["BEARER_TOKEN"]
+bearer_token = os.environ.get("BEARER_TOKEN")
 
 search_url = "https://api.twitter.com/2/tweets/counts/recent"
 
