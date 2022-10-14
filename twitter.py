@@ -6,7 +6,6 @@ import streamlit as st
 # To set your environment variables in your terminal run the following line:
 # export 'BEARER_TOKEN'='<your_bearer_token>'
 # To set your enviornment variables in your terminal run the following line:
-os.environ.setdefault('BEARER_TOKEN', 'AAAAAAAAAAAAAAAAAAAAAJT%2FbgEAAAAAb32JuiTo2HTpKpMSFFHjdD3Pg6E%3DDIXXfrUvJn5drQGGz8GaICYEB0PjGmdNPRZScjzvMR9fuPOmGQ')
 
 bearer_token = os.environ.get("BEARER_TOKEN")
 
