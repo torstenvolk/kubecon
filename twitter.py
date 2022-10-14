@@ -1,9 +1,6 @@
-from datetime import datetime
-
 import pandas as pd
 import requests
 import os
-import json
 import matplotlib.pyplot as plt
 import streamlit as st
 # To set your environment variables in your terminal run the following line:
